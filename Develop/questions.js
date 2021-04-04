@@ -1,56 +1,56 @@
 module.exports = [
     {
       type: "input",
-      name: "Title",
+      name: "title",
       message: "What is the title for your project?",
     },
 
     {
       type: "input",
-      name: "Description",
+      name: "description",
       message: "What is the description for your project?",
     },
 
     {
       type: "input",
-      name: "Installation",
+      name: "installation",
       message: "What are your installation instructions?",
     },
 
     {
       type: "input",
-      name: "Use",
+      name: "use",
       message: "What are your instructions for using your project?",
     },
 
     {
         type: "input",
-        name: "Testing",
+        name: "testing",
         message: "What are your testing instructions?",
     },
 
     {
       type: "input",
-      name: "Contributing",
-      message: "Are there any guidelines for contributing t oyour project?",
+      name: "contributing",
+      message: "Are there any guidelines for contributing to your project?",
     },
 
     {
       type: "list",
-      name: "License",
+      name: "license",
       message: "Which license would you like to cover your project?",
       choices: ["MIT", "Apache", "GNU GPLv3", "ISC", "none"],
     },
 
     {
       type: "input",
-      name: "GitHub URL",
+      name: "gitHubUrl",
       message: "Add your GitHub url?",
     },
 
     {
       type: "input",
-      name: "Email",
+      name: "email",
       message: "Add your email address?",
     },
   ];
