@@ -24,15 +24,15 @@ module.exports = [
     },
 
     {
-      type: "input",
-      name: "Contributing",
-      message: "Are there any guidelines for contributing t oyour project?",
+        type: "input",
+        name: "Testing",
+        message: "What are your testing instructions?",
     },
 
     {
       type: "input",
-      name: "Testing",
-      message: "What are your testing  instructions?",
+      name: "Contributing",
+      message: "Are there any guidelines for contributing t oyour project?",
     },
 
     {
